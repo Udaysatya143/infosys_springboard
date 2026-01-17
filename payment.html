@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Make Payment</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+<h2>Payment</h2>
+
+<p>Product: Rice</p>
+<p>Amount: ₹6000</p>
+
+<button onclick="pay()">Pay Now</button>
+
+<p id="msg"></p>
+</div>
+
+<script>
+function pay(){
+ document.getElementById("msg").innerHTML =
+ "<span style='color:green'>Payment Successful</span>";
+}
+</script>
+
+</body>
+</html>
